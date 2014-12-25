@@ -68,10 +68,10 @@ module.exports = function (grunt) {
     connect: {
       options: {
         port: 9000,
-        open: true,
+        open: false,
         livereload: 35729,
         // Change this to '0.0.0.0' to access the server from outside
-        hostname: 'localhost'
+        hostname: '0.0.0.0'
       },
       livereload: {
         options: {
@@ -299,6 +299,12 @@ module.exports = function (grunt) {
           expand: true,
           dot: true,
           cwd: 'bower_components/bootstrap/dist',
+          src: 'fonts/*',
+          dest: '<%= config.dist %>'
+        }, {
+          expand: true,
+          dot: true,
+          cwd: 'bower_components/components-font-awesome',
           src: 'fonts/*',
           dest: '<%= config.dist %>'
         }]

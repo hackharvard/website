@@ -7,8 +7,9 @@
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 90px;
   padding-bottom: 20px;
+  position: relative;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -54,13 +55,33 @@ body {
   padding: 14px 24px;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
+/* Pizzaz */
+
+.crimson {
+  color: #990000;
 }
 
-.marketing p + h4 {
-  margin-top: 28px;
+.explain {
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+.follow-up-links {
+  margin-top: 1em;
+}
+
+.headshot {
+  width: 100%;
+}
+
+.jumbotron {
+  color: #FFFFFF;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 1);
+
+  background-size: cover;
+  background-image: url(/images/cover.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -85,5 +106,11 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
   }
 }

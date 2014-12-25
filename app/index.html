@@ -2,7 +2,7 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title>website</title>
+    <title>HackHarvard</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -10,50 +10,329 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#top-nav-links">
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-nav-links">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Hack<span class="crimson">Harvard</span></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="top-nav-links">
+          <ul class="nav navbar-nav" role="tablist">
+            <li><a href="#about"><i class="fa fa-info"></i> About</a></li>
+            <li><a href="#lists"><i class="fa fa-send"></i> Mailing Lists</a></li>
+            <li><a href="#schedule"><i class="fa fa-calendar"></i> HackNight Schedule</a></li>
+            <li><a href="#board"><i class="fa fa-users"></i> Board</a></li>
+            <li><a href="#alumni"><i class="fa fa-graduation-cap"></i> Alumni Board</a></li>
+            <li><a href="#sponsors"><i class="fa fa-star"></i> Sponsors</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://www.facebook.com/hackharvard"><i class="fa fa-facebook"></i><span class="sr-only">Facebook</span></a></li>
+            <li><a href="https://twitter.com/hack_harvard"><i class="fa fa-twitter"></i><span class="sr-only">Twitter</span></a></li>
+            <li><a href="https://www.linkedin.com/groups/HackHarvard-8210998/about"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a></li>
+            <li><a href="https://github.com/hackharvard"><i class="fa fa-github"></i><span class="sr-only">GitHub</span></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
     <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">website</h3>
-      </div>
-
       <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
+        <h1>HackHarvard</h1>
+        <p class="lead">We're passionate about building a community around technology and entrepreneurship.</p>
       </div>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+      <h1 class="page-header" id="about">
+        About
+      </h1>
 
+      <p>
+        We are HackHarvard, the oldest student organization at Harvard College interested in
+        promoting technology entrepreneurship on campus. We work hard to create a community
+        of hundreds of students passionate about designing, building, and programming.
+      </p>
 
+      <p>
+        HackHarvard brings together CS students from all four years to share ideas, help each
+        other code, and form friendships. To accomplish our goals, the club holds weekly
+        HackNights, dinners, and mixers that give the Harvard community an opportunity to work
+        together on personal projects and get to know each other. We also welcome speakers and
+        organize a variety of tech-related events throughout the year.`
+      </p>
 
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
+      <h1 class="page-header" id="lists">
+        Mailing Lists
+      </h1>
 
+      <p class="explain">
+        Stay up to date on all things HackHarvard. We don't spam, and you can always unsubscribe.
+      </p>
 
+      <div class="panel panel-default">
+        <div class="panel-heading">HackHarvard</div>
+        <div class="panel-body">
+          General announcements and events. The main HackHarvard mailing list.
+
+          <p class="follow-up-links">
+            <a href="http://groups.google.com/group/hack-harvard">Subscribe here.</a>
+          </p>
         </div>
       </div>
 
+      <div class="panel panel-default">
+        <div class="panel-heading">HackTalk</div>
+        <div class="panel-body">
+          For thoughtful discussion of articles and news relating to Technology and Entrepreneurship.
+
+          <p class="follow-up-links">
+            <a href="http://groups.google.com/group/hacktalk">Subscribe here.</a>
+          </p>
+        </div>
+      </div>
+
+      <h1 class="page-header" id="schedule">
+        HackNight Schedule
+      </h1>
+
+      <p class="explain">
+        HackNights are weekly events when we all get together to socialize, work on our projects in the same space, and eat good food.
+      </p>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of February 2nd</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of February 9th</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of February 16th</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of February 23th</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of March 2nd</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of March 9th</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of March 16th</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of March 23th</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of March 30th</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of April 6th</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of April 13th</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of April 20th</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">HackNight the week of April 27th</div>
+        <div class="panel-body">
+          TBA
+        </div>
+      </div>
+
+      <h1 class="page-header" id="board">
+        Board
+      </h1>
+
+      <p class="explain">
+        The students that volunteer their time to run HackHarvard. They make executive decisions and deal with the administrative details of the club.
+      </p>
+
+      <ul>
+        <li>
+          Tomas Reimers <span class="crimson">'17</span>
+          <a href="https://www.linkedin.com/profile/view?id=310724943"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Roger Zurawiki <span class="crimson">'16</span>
+          <a href="https://www.linkedin.com/profile/view?id=374419461"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Gregory Foster <span class="crimson">'17</span>
+          <a href="https://www.linkedin.com/profile/view?id=293379839"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Aran Khanna <span class="crimson">'16</span>
+          <a href="https://www.linkedin.com/profile/view?id=195001911"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Jonah Kallenbach <span class="crimson">'17</span>
+          <a href="https://www.linkedin.com/profile/view?id=301725195"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Jared Pochtar <span class="crimson">'17</span>
+        </li>
+        <li>
+          Chris Read <span class="crimson">'17</span>
+        </li>
+      </ul>
+
+      <h1 class="page-header" id="alumni">
+        Alumni Board
+      </h1>
+
+      <p class="explain">
+        We stand on the shoulders of giants, and we owe a huge debt of gratitude to our former board members.
+      </p>
+
+      <ul>
+        <li>
+          RJ Aquino <span class="crimson">'14</span>
+          <a href="https://www.linkedin.com/profile/view?id=265719842"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Peter Boyce II <span class="crimson">'13</span>
+          <a href="https://www.linkedin.com/profile/view?id=44464617"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Allison Buchholtz-Au <span class="crimson">'15</span>
+          <a href="https://www.linkedin.com/profile/view?id=161326130"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Mark Grozen-Smith <span class="crimson">'15</span>
+          <a href="https://www.linkedin.com/profile/view?id=137048757"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Zach Hamed <span class="crimson">'14</span>
+          <a href="https://www.linkedin.com/profile/view?id=100715871"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Tuan Ho <span class="crimson">'09</span>
+          <a href="https://www.linkedin.com/profile/view?id=47706456"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          David Kosslyn <span class="crimson">'11</span>
+          <a href="https://www.linkedin.com/profile/view?id=23875604"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Brandon Liu <span class="crimson">'14</span>
+          <a href="https://www.linkedin.com/profile/view?id=65363564"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Tianyu Liu <span class="crimson">'16</span>
+          <a href="https://www.linkedin.com/profile/view?id=139526323"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Tommy MacWilliam <span class="crimson">'13</span>
+          <a href="https://www.linkedin.com/profile/view?id=100613400"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Julia Mitelman <span class="crimson">'13</span>
+          <a href="https://www.linkedin.com/profile/view?id=9692731"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Joseph Ong <span class="crimson">'14</span>
+          <a href="https://www.linkedin.com/profile/view?id=126528779"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Lexi Ross <span class="crimson">'13</span>
+          <a href="https://www.linkedin.com/profile/view?id=140058861"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Jeremy Sabath <span class="crimson">'16</span>
+          <a href="https://www.linkedin.com/profile/view?id=228155834"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+        <li>
+          Diane Yang <span class="crimson">'16</span>
+          <a href="https://www.linkedin.com/profile/view?id=271634230"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        </li>
+      </ul>
+
+      <h1 class="page-header" id="sponsors">
+        Current Sponsors
+      </h1>
+
+      <p class="explain">
+        Our all-star sponsors make all this possible. We cannot possibly say thank you enough -- but here's to you, Thank you!
+      </p>
+
+      <ul>
+        <li>
+          <a href="http://www.generalcatalyst.com/">General Catalyst</a>
+        </li>
+      </ul>
+
       <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p>HackHarvard is an independantly run program of <a href="http://harvardventures.org">Harvard Ventures</a>.</p>
       </div>
 
     </div>
