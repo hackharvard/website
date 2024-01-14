@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c9018e2.css",
+    "main.js": "/static/js/main.75b91989.js",
+    "static/media/merch.jpg": "/static/media/merch.bd5bb0fa7f9f38d481ed.jpg",
+    "static/media/sleep.jpg": "/static/media/sleep.170ef2513e4869cc55f9.jpg",
+    "static/media/work.jpg": "/static/media/work.07bfb661f78f490c8f5b.jpg",
+    "static/media/food.jpg": "/static/media/food.fb23044e3d061618ed8b.jpg",
+    "static/media/design.jpg": "/static/media/design.cb037e7eeee905641921.jpg",
+    "static/media/speaker.jpg": "/static/media/speaker.8492f45ddfcad23915a4.jpg",
+    "static/media/friends.jpg": "/static/media/friends.cdec0917d2a561ebd208.jpg",
+    "static/media/mentors.jpg": "/static/media/mentors.853756d3d6d4f3cd9e89.jpg",
+    "static/media/code.jpg": "/static/media/code.7e663db3a143dfefae3c.jpg",
+    "static/media/1.jpg": "/static/media/1.7d39f6e3dbf4c39553b0.jpg",
+    "static/media/2.jpg": "/static/media/2.e87b62813ee2cf8b3937.jpg",
+    "static/media/3.jpg": "/static/media/3.917687bce04e3c112fd1.jpg",
+    "static/media/4.jpg": "/static/media/4.5fe5e3b65a460cc4388b.jpg",
+    "static/media/Exo-Italic.woff": "/static/media/Exo-Italic.ce377dfb26370de7dfbe.woff",
+    "static/media/Exo-LightItalic.woff": "/static/media/Exo-LightItalic.b6ca00dcb726284cd55a.woff",
+    "static/media/Exo-BoldItalic.woff": "/static/media/Exo-BoldItalic.0830d570606d21b3178f.woff",
+    "static/media/Exo-Bold.woff": "/static/media/Exo-Bold.ce628d81d929aca2b72c.woff",
+    "static/media/Exo-Regular.woff": "/static/media/Exo-Regular.54aa5a76c8ef84da8ab6.woff",
+    "static/media/Exo-Light.woff": "/static/media/Exo-Light.a4e3879e86f42cfc9df3.woff",
+    "static/media/Zig-Regular.woff": "/static/media/Zig-Regular.680e6705d38d07f91ebf.woff",
+    "static/media/logo.svg": "/static/media/logo.647040706e956d1cdff00b0c3d9955a4.svg",
+    "index.html": "/index.html",
+    "main.6c9018e2.css.map": "/static/css/main.6c9018e2.css.map",
+    "main.75b91989.js.map": "/static/js/main.75b91989.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c9018e2.css",
+    "static/js/main.75b91989.js"
+  ]
+}
