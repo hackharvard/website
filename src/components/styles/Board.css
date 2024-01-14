@@ -1,0 +1,55 @@
+/* Style the timeline container */
+.timeline {
+  position: relative;
+max-width: 1200px;
+margin: 0 auto;
+}
+/* Style the timeline items */
+.timeline::after {
+  content: '';
+position: absolute;
+width: 6px;
+background-color: #0177a8;
+top: 0;
+bottom: 0;
+left: 80%;
+margin-left: -3px;
+}
+.timeline-item {
+  margin: 10px 0;
+position: relative;
+padding: 20px 30px;
+background-color: #f8f8f8;
+border-radius: 5px;
+}
+/* Style the timeline item content */
+.timeline-item-content {
+  margin-top: 15px;
+}
+/* Style the timeline item date */
+.timeline-item-date {
+  display: block;
+font-size: 16px;
+font-weight: bold;
+color: #0177a8;
+margin-bottom: 10px;
+}
+/* Style the timeline item description */
+.timeline-item-desc {
+  font-size: 14px;
+color: #666;
+line-height: 1.6;
+width: 70%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.gallery img {
+  height:300px;
+  object-fit: contain;
+}

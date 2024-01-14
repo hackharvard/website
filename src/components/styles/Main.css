@@ -1,0 +1,46 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+  text-align: center;
+  padding: 10px;
+}
+.logo-animate {
+  width: 200px;
+  height: auto;
+  animation: pulseLogo 2s ease-in-out infinite;
+}
+
+@keyframes pulseLogo {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+
+.event-date {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 600px; /* Limit the width for readability */
+}
+
+.join-button {
+  margin-top: 20px;
+  /* animation: pulse 1.5s infinite; */
+}
+
+/* @keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+} */
